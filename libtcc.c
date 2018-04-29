@@ -1507,12 +1507,13 @@ static int rt_get_caller_pc(unsigned long *paddr,
     unsigned long fp;
     int i;
 
+#ifdef LINUX
     if (level == 0) {
         /* XXX: only support linux */
-        *paddr = uc->uc_mcontext.gregs[REG_RIP];
+        *paddr = uc->uc_mcontext->gregs[REG_RIP];
         return 0;
     } else {
-        fp = uc->uc_mcontext.gregs[REG_RBP];
+        fp = uc->uc_mcontext->gregs[REG_RBP];
         for(i=1;i<level;i++) {
             /* XXX: check address validity with program info */
             if (fp <= 0x1000)
@@ -1522,6 +1523,9 @@ static int rt_get_caller_pc(unsigned long *paddr,
         *paddr = ((unsigned long *)fp)[1];
         return 0;
     }
+#else
+    return 0;
+#endif
 }
 #else
 #warning add arch specific rt_get_caller_pc()

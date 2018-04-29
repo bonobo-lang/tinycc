@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tcc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\bvm\;CMake Files\lib\bvm\src\;CMake Files\lib\bvm\src\bvm\;CMake Files\lib\bvm\src\tcc\;CMake Files\lib\bvm\src\tcc\cmake\;CMake Files\lib\bvm\src\bvm_dart\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcc">
+				<Option output="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/tcc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTCC_TARGET_I386"/>
+					<Add directory="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc"/>
+					<Add directory="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/child-dir"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 tcc"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcc/fast">
+				<Option output="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/tcc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTCC_TARGET_I386"/>
+					<Add directory="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc"/>
+					<Add directory="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/child-dir"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 tcc/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tiny_libmaker">
+				<Option output="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/tiny_libmaker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTCC_TARGET_I386"/>
+					<Add directory="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc"/>
+					<Add directory="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/child-dir"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 tiny_libmaker"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tiny_libmaker/fast">
+				<Option output="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/tiny_libmaker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTCC_TARGET_I386"/>
+					<Add directory="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc"/>
+					<Add directory="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/child-dir"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 tiny_libmaker/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libtcc1">
+				<Option working_dir="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 libtcc1"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libtcc">
+				<Option output="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/liblibtcc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTCC_TARGET_I386"/>
+					<Add directory="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc"/>
+					<Add directory="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/child-dir"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 libtcc"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libtcc/fast">
+				<Option output="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/liblibtcc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTCC_TARGET_I386"/>
+					<Add directory="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc"/>
+					<Add directory="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/child-dir"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 libtcc/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/libtcc.c">
+			<Option target="libtcc"/>
+		</Unit>
+		<Unit filename="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/libtcc.h">
+			<Option target="libtcc"/>
+		</Unit>
+		<Unit filename="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/tcc.c">
+			<Option target="tcc"/>
+		</Unit>
+		<Unit filename="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/tcc.h">
+			<Option target="tcc"/>
+		</Unit>
+		<Unit filename="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/win32/tools/tiny_libmaker.c">
+			<Option target="tiny_libmaker"/>
+		</Unit>
+		<Unit filename="/Users/thosakwe/Source/Compilers/bonobo/bonobo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\bvm\"/>
+		</Unit>
+		<Unit filename="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\bvm\src\"/>
+		</Unit>
+		<Unit filename="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/bvm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\bvm\src\bvm\"/>
+		</Unit>
+		<Unit filename="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\bvm\src\tcc\"/>
+		</Unit>
+		<Unit filename="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/config.h.in">
+			<Option virtualFolder="CMake Files\lib\bvm\src\tcc\"/>
+		</Unit>
+		<Unit filename="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\bvm\src\tcc\"/>
+		</Unit>
+		<Unit filename="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/config.h.in">
+			<Option virtualFolder="CMake Files\lib\bvm\src\tcc\"/>
+		</Unit>
+		<Unit filename="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/cmake/dist.cmake">
+			<Option virtualFolder="CMake Files\lib\bvm\src\tcc\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/tcc/cmake/dist.cmake">
+			<Option virtualFolder="CMake Files\lib\bvm\src\tcc\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/thosakwe/Source/Compilers/bonobo/bonobo/lib/bvm/src/bvm_dart/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\bvm\src\bvm_dart\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
